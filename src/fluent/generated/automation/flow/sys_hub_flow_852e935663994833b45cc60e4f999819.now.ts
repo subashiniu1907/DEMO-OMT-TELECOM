@@ -1,3 +1,4 @@
+// @fluent-disable-sync-for-file
 import { Flow, wfa, trigger, action } from '@servicenow/sdk/automation'
 
 Flow(
