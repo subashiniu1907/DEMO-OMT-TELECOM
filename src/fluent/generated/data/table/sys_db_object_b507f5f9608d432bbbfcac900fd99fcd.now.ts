@@ -27,6 +27,9 @@ export const x_1208752_demo_o_1_customer = Table({
             columnType: 'longint',
             maxLength: 19,
         }),
+        alternatephone: StringColumn({
+            maxLength: 40,
+        }),
     },
     augments: 'x_1208752_demo_o_1_customer',
 })
