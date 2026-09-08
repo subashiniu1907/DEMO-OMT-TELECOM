@@ -5,5 +5,6 @@
     "licensing": {
         "enforceLicense": "none"
     },
-    "description": "A simple ServiceNow Order Management application demonstrating New Order and Cancel Order scenarios with Product, Customer, Order, and Order Line data model."
+    "description": "A simple ServiceNow Order Management application demonstrating New Order and Cancel Order scenarios with Product, Customer, Order, and Order Line data model.",
+    "tsconfigPath": "tsconfig.json"
 }
