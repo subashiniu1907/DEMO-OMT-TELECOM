@@ -1,5 +1,5 @@
 import { BusinessRule } from '@servicenow/sdk/core'
-//BR for demo
+
 BusinessRule({
     $id: Now.ID['f3ef7ec8dd894ca88b9fa4321d07da7c'],
     name: 'Demo OMT Set Completion Date',
@@ -9,3 +9,4 @@ BusinessRule({
     filterCondition: 'stateVALCHANGES^state=completed^ORstateVALCHANGES^state=cancelled',
     script: Now.include('./sys_script_f3ef7ec8dd894ca88b9fa4321d07da7c.server.js'),
 })
+//BR for Demo
