@@ -1,5 +1,5 @@
 import { BusinessRule } from '@servicenow/sdk/core'
-
+//using demo
 BusinessRule({
 
     $id: Now.ID['aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa'],
