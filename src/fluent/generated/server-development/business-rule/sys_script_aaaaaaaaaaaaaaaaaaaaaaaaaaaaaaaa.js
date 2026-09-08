@@ -1,7 +1,7 @@
 import { BusinessRule } from '@servicenow/sdk/core'
 
 BusinessRule({
-
+    // demo BR
     $id: Now.ID['aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa'],
 
     name: 'Demo OMT - Test Git BR',

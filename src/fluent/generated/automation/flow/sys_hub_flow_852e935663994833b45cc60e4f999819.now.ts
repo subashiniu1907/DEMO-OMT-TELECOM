@@ -34,7 +34,7 @@ Flow(
             {
                 sort_type: 'sort_asc',
                 // @fluent-ignore
-                conditions: `sys_id=${wfa.dataPill(_params.trigger.current.customer,'string')}^active=true`,
+                conditions: `sys_id=${wfa.dataPill(_params.trigger.current['customer'],'string')}^active=true`,
                 dont_fail_flow_on_error: false,
                 table: 'x_1208752_demo_o_1_customer',
                 sort_column: '',
@@ -69,7 +69,7 @@ Flow(
                     {
                         table_name: 'x_1208752_demo_o_1_order_line',
                         // @fluent-ignore
-                        conditions: `order=${wfa.dataPill(_params.trigger.current.sys_id,'string')}`,
+                        conditions: `order=${wfa.dataPill(_params.trigger.current['sys_id'],'string')}`,
                         sort_type: 'sort_asc',
                         field_values: TemplateValue({
                             state: 'in_progress',
@@ -86,7 +86,7 @@ Flow(
                     {
                         table_name: 'x_1208752_demo_o_1_order_line',
                         // @fluent-ignore
-                        conditions: `order=${wfa.dataPill(_params.trigger.current.sys_id,'string')}`,
+                        conditions: `order=${wfa.dataPill(_params.trigger.current['sys_id'],'string')}`,
                         sort_type: 'sort_asc',
                         field_values: TemplateValue({
                             state: 'cancelled',
@@ -138,7 +138,7 @@ Flow(
                     {
                         table_name: 'x_1208752_demo_o_1_order_line',
                         // @fluent-ignore
-                        conditions: `order=${wfa.dataPill(_params.trigger.current.sys_id,'string')}`,
+                        conditions: `order=${wfa.dataPill(_params.trigger.current['sys_id'],'string')}`,
                         sort_type: 'sort_asc',
                         field_values: TemplateValue({
                             state: 'failed',
