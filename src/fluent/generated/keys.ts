@@ -302,6 +302,23 @@ declare global {
                         }
                     },
                     {
+                        table: 'sys_ui_element'
+                        id: '14e382c093578b10f1d1f0b45d03d613'
+                        key: {
+                            sys_ui_section: {
+                                id: 'f0a45cfb93c7c710f1d1f0b45d03d68c'
+                                key: {
+                                    name: 'x_1208752_demo_o_1_customer'
+                                    caption: 'NULL'
+                                    view: 'Default view'
+                                    sys_domain: 'global'
+                                }
+                            }
+                            element: 'streetaddress'
+                            position: '7'
+                        }
+                    },
+                    {
                         table: 'sys_documentation'
                         id: '15ad0834a975431fa47a75139f8d8f0d'
                         key: {
@@ -372,7 +389,7 @@ declare global {
                     {
                         table: 'sys_hub_flow_input'
                         id: '2ac3587b93c7c710f1d1f0b45d03d6f5'
-                        deleted: false
+                        deleted: true
                         key: {
                             model: '253d25a53fef47a4aeea5542b13736b8'
                             element: 'changed_fields'
@@ -522,6 +539,15 @@ declare global {
                         id: '36b3547b93c7c710f1d1f0b45d03d6fb'
                         key: {
                             name: 'x_1208752_demo_o_1_customer'
+                        }
+                    },
+                    {
+                        table: 'sys_documentation'
+                        id: '38463f1b01f748dbb160d8f94a2dc298'
+                        key: {
+                            name: 'x_1208752_demo_o_1_customer'
+                            element: 'pincode'
+                            language: 'en'
                         }
                     },
                     {
@@ -759,7 +785,7 @@ declare global {
                     {
                         table: 'sys_documentation'
                         id: '56c3587b93c7c710f1d1f0b45d03d6e5'
-                        deleted: false
+                        deleted: true
                         key: {
                             name: 'var__m_sys_hub_flow_input_253d25a53fef47a4aeea5542b13736b8'
                             element: 'table_name'
@@ -769,7 +795,7 @@ declare global {
                     {
                         table: 'sys_documentation'
                         id: '5bc3d87b93c7c710f1d1f0b45d03d625'
-                        deleted: false
+                        deleted: true
                         key: {
                             name: 'var__m_sys_hub_flow_input_13c3987b93c7c710f1d1f0b45d03d6f0'
                             element: 'current'
@@ -805,7 +831,7 @@ declare global {
                     {
                         table: 'sys_documentation'
                         id: '5fc3d87b93c7c710f1d1f0b45d03d649'
-                        deleted: false
+                        deleted: true
                         key: {
                             name: 'var__m_sys_hub_flow_input_13c3987b93c7c710f1d1f0b45d03d6f0'
                             element: 'changed_fields'
@@ -930,10 +956,18 @@ declare global {
                     {
                         table: 'sys_hub_flow_input'
                         id: '6ac3587b93c7c710f1d1f0b45d03d6ea'
-                        deleted: false
+                        deleted: true
                         key: {
                             model: '253d25a53fef47a4aeea5542b13736b8'
                             element: 'current'
+                        }
+                    },
+                    {
+                        table: 'sys_dictionary'
+                        id: '6d9c5c8457e04b439d79964093136567'
+                        key: {
+                            name: 'x_1208752_demo_o_1_customer'
+                            element: 'streetaddress'
                         }
                     },
                     {
@@ -1134,6 +1168,15 @@ declare global {
                     },
                     {
                         table: 'sys_documentation'
+                        id: '8caa116a21ec4dbababf0fcce61c57c2'
+                        key: {
+                            name: 'x_1208752_demo_o_1_customer'
+                            element: 'streetaddress'
+                            language: 'en'
+                        }
+                    },
+                    {
+                        table: 'sys_documentation'
                         id: '8d2a701be8124b6eb5da37fe588639d2'
                         key: {
                             name: 'x_1208752_demo_o_1_order'
@@ -1194,9 +1237,26 @@ declare global {
                         }
                     },
                     {
+                        table: 'sys_ui_element'
+                        id: '90e382c093578b10f1d1f0b45d03d614'
+                        key: {
+                            sys_ui_section: {
+                                id: 'f0a45cfb93c7c710f1d1f0b45d03d68c'
+                                key: {
+                                    name: 'x_1208752_demo_o_1_customer'
+                                    caption: 'NULL'
+                                    view: 'Default view'
+                                    sys_domain: 'global'
+                                }
+                            }
+                            element: 'pincode'
+                            position: '8'
+                        }
+                    },
+                    {
                         table: 'sys_hub_flow_input'
                         id: '93c3d87b93c7c710f1d1f0b45d03d64e'
-                        deleted: false
+                        deleted: true
                         key: {
                             model: '13c3987b93c7c710f1d1f0b45d03d6f0'
                             element: 'table_name'
@@ -1205,7 +1265,7 @@ declare global {
                     {
                         table: 'sys_documentation'
                         id: '93c3d87b93c7c710f1d1f0b45d03d661'
-                        deleted: false
+                        deleted: true
                         key: {
                             name: 'var__m_sys_hub_flow_input_13c3987b93c7c710f1d1f0b45d03d6f0'
                             element: 'table_name'
@@ -1252,7 +1312,7 @@ declare global {
                     {
                         table: 'sys_hub_flow_input'
                         id: '97c3987b93c7c710f1d1f0b45d03d6f4'
-                        deleted: false
+                        deleted: true
                         key: {
                             model: '13c3987b93c7c710f1d1f0b45d03d6f0'
                             element: 'current'
@@ -1286,7 +1346,7 @@ declare global {
                     {
                         table: 'sys_hub_flow_input'
                         id: '9ec3587b93c7c710f1d1f0b45d03d6b7'
-                        deleted: false
+                        deleted: true
                         key: {
                             model: '253d25a53fef47a4aeea5542b13736b8'
                             element: 'table_name'
@@ -1306,7 +1366,7 @@ declare global {
                     {
                         table: 'sys_hub_flow_input'
                         id: '9fc3d87b93c7c710f1d1f0b45d03d629'
-                        deleted: false
+                        deleted: true
                         key: {
                             model: '13c3987b93c7c710f1d1f0b45d03d6f0'
                             element: 'changed_fields'
@@ -1398,7 +1458,7 @@ declare global {
                     {
                         table: 'sys_documentation'
                         id: 'aec3587b93c7c710f1d1f0b45d03d6fc'
-                        deleted: false
+                        deleted: true
                         key: {
                             name: 'var__m_sys_hub_flow_input_253d25a53fef47a4aeea5542b13736b8'
                             element: 'changed_fields'
@@ -1732,7 +1792,7 @@ declare global {
                     {
                         table: 'sys_documentation'
                         id: 'e2c3587b93c7c710f1d1f0b45d03d6f1'
-                        deleted: false
+                        deleted: true
                         key: {
                             name: 'var__m_sys_hub_flow_input_253d25a53fef47a4aeea5542b13736b8'
                             element: 'current'
@@ -2030,6 +2090,14 @@ declare global {
                         key: {
                             name: 'x_1208752_demo_o_1_customer'
                             element: 'name'
+                        }
+                    },
+                    {
+                        table: 'sys_dictionary'
+                        id: 'ff4d06f1c40d4e9c86def1ea4081e325'
+                        key: {
+                            name: 'x_1208752_demo_o_1_customer'
+                            element: 'pincode'
                         }
                     },
                 ]

@@ -78,3 +78,21 @@ Record({
         sys_ui_section: 'f0a45cfb93c7c710f1d1f0b45d03d68c',
     },
 })
+Record({
+    $id: Now.ID['14e382c093578b10f1d1f0b45d03d613'],
+    table: 'sys_ui_element',
+    data: {
+        element: 'streetaddress',
+        position: 7,
+        sys_ui_section: 'f0a45cfb93c7c710f1d1f0b45d03d68c',
+    },
+})
+Record({
+    $id: Now.ID['90e382c093578b10f1d1f0b45d03d614'],
+    table: 'sys_ui_element',
+    data: {
+        element: 'pincode',
+        position: 8,
+        sys_ui_section: 'f0a45cfb93c7c710f1d1f0b45d03d68c',
+    },
+})

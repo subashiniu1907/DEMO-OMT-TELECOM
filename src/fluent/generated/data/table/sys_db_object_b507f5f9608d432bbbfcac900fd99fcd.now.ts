@@ -1,19 +1,6 @@
-import { Table, BooleanColumn, EmailColumn, StringColumn } from '@servicenow/sdk/core'
+import { Table, BooleanColumn, EmailColumn, StringColumn, GenericColumn } from '@servicenow/sdk/core'
 
 export const x_1208752_demo_o_1_customer = Table({
-    actions: {
-        read: true,
-        update: false,
-        delete: false,
-        create: false,
-    },
-    allowClientScripts: false,
-    allowNewFields: false,
-    allowUiActions: false,
-    allowWebServiceAccess: true,
-    display: 'name',
-    label: 'Customer',
-    name: 'x_1208752_demo_o_1_customer',
     schema: {
         active: BooleanColumn({
             default: true,
@@ -33,5 +20,13 @@ export const x_1208752_demo_o_1_customer = Table({
         streetaddress: StringColumn({
             maxLength: 40,
         }),
+        pincode: GenericColumn({
+            attributes: {
+                timeFromCreateToActivate: '7000',
+            },
+            columnType: 'longint',
+            maxLength: 19,
+        }),
     },
+    augments: 'x_1208752_demo_o_1_customer',
 })
