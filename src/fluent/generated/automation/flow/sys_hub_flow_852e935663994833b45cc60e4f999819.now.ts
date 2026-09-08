@@ -3,7 +3,7 @@ import { Flow, wfa, trigger, action } from '@servicenow/sdk/automation'
 Flow(
     {
         $id: Now.ID['852e935663994833b45cc60e4f999819'],
-        name: 'Demo OMT Telecom - Cancel Order Flow - Demo 1',
+        name: 'Demo OMT Telecom - Cancel Order Flow',
         internalName: 'demo_omt_telecom__cancel_order_flow',
         runAs: 'system',
         masterSnapshot: 'f8d35c7b93c7c710f1d1f0b45d03d601',
