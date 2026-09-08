@@ -1,5 +1,5 @@
 import { BusinessRule } from '@servicenow/sdk/core'
-
+//BR for demo
 BusinessRule({
     $id: Now.ID['f3ef7ec8dd894ca88b9fa4321d07da7c'],
     name: 'Demo OMT Set Completion Date',
