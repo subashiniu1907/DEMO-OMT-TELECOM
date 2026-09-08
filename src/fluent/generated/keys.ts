@@ -117,6 +117,10 @@ declare global {
                         table: 'sys_scope_privilege'
                         id: 'a6ed1473934bc710f1d1f0b45d03d6ee'
                     }
+                    aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa: {
+                        table: 'sys_script'
+                        id: 'aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa'
+                    }
                     bb644fdab34e48f9b382b00adf0c5361: {
                         table: 'sys_hub_action_instance_v2'
                         id: 'bb644fdab34e48f9b382b00adf0c5361'
