@@ -79,20 +79,29 @@ Record({
     },
 })
 Record({
-    $id: Now.ID['14e382c093578b10f1d1f0b45d03d613'],
+    $id: Now.ID['f8678e8893578b10f1d1f0b45d03d648'],
     table: 'sys_ui_element',
     data: {
-        element: 'streetaddress',
+        element: 'alternatephone',
         position: 7,
         sys_ui_section: 'f0a45cfb93c7c710f1d1f0b45d03d68c',
     },
 })
 Record({
-    $id: Now.ID['90e382c093578b10f1d1f0b45d03d614'],
+    $id: Now.ID['78678e8893578b10f1d1f0b45d03d649'],
+    table: 'sys_ui_element',
+    data: {
+        element: 'streetaddress',
+        position: 8,
+        sys_ui_section: 'f0a45cfb93c7c710f1d1f0b45d03d68c',
+    },
+})
+Record({
+    $id: Now.ID['f4678e8893578b10f1d1f0b45d03d64a'],
     table: 'sys_ui_element',
     data: {
         element: 'pincode',
-        position: 8,
+        position: 9,
         sys_ui_section: 'f0a45cfb93c7c710f1d1f0b45d03d68c',
     },
 })

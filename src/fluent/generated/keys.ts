@@ -304,6 +304,7 @@ declare global {
                     {
                         table: 'sys_ui_element'
                         id: '14e382c093578b10f1d1f0b45d03d613'
+                        deleted: true
                         key: {
                             sys_ui_section: {
                                 id: 'f0a45cfb93c7c710f1d1f0b45d03d68c'
@@ -1090,6 +1091,23 @@ declare global {
                         }
                     },
                     {
+                        table: 'sys_ui_element'
+                        id: '78678e8893578b10f1d1f0b45d03d649'
+                        key: {
+                            sys_ui_section: {
+                                id: 'f0a45cfb93c7c710f1d1f0b45d03d68c'
+                                key: {
+                                    name: 'x_1208752_demo_o_1_customer'
+                                    caption: 'NULL'
+                                    view: 'Default view'
+                                    sys_domain: 'global'
+                                }
+                            }
+                            element: 'streetaddress'
+                            position: '8'
+                        }
+                    },
+                    {
                         table: 'sys_index'
                         id: '7a9874cfccb84675ae4b398cd1418607'
                         key: {
@@ -1168,6 +1186,15 @@ declare global {
                     },
                     {
                         table: 'sys_documentation'
+                        id: '8c1621df3f2c42fba72bba8a8da8e062'
+                        key: {
+                            name: 'x_1208752_demo_o_1_customer'
+                            element: 'alternatephone'
+                            language: 'en'
+                        }
+                    },
+                    {
+                        table: 'sys_documentation'
                         id: '8caa116a21ec4dbababf0fcce61c57c2'
                         key: {
                             name: 'x_1208752_demo_o_1_customer'
@@ -1239,6 +1266,7 @@ declare global {
                     {
                         table: 'sys_ui_element'
                         id: '90e382c093578b10f1d1f0b45d03d614'
+                        deleted: true
                         key: {
                             sys_ui_section: {
                                 id: 'f0a45cfb93c7c710f1d1f0b45d03d68c'
@@ -1748,6 +1776,14 @@ declare global {
                         }
                     },
                     {
+                        table: 'sys_dictionary'
+                        id: 'dd74d4d7b0ef4f7d8e5dc642c7339a4a'
+                        key: {
+                            name: 'x_1208752_demo_o_1_customer'
+                            element: 'alternatephone'
+                        }
+                    },
+                    {
                         table: 'sys_db_object'
                         id: 'e15625fb008c4f29905da506ac37dbf5'
                         key: {
@@ -1989,6 +2025,23 @@ declare global {
                     },
                     {
                         table: 'sys_ui_element'
+                        id: 'f4678e8893578b10f1d1f0b45d03d64a'
+                        key: {
+                            sys_ui_section: {
+                                id: 'f0a45cfb93c7c710f1d1f0b45d03d68c'
+                                key: {
+                                    name: 'x_1208752_demo_o_1_customer'
+                                    caption: 'NULL'
+                                    view: 'Default view'
+                                    sys_domain: 'global'
+                                }
+                            }
+                            element: 'pincode'
+                            position: '9'
+                        }
+                    },
+                    {
+                        table: 'sys_ui_element'
                         id: 'f4e59cbf93c7c710f1d1f0b45d03d659'
                         key: {
                             sys_ui_section: {
@@ -2013,6 +2066,23 @@ declare global {
                             value: 'new'
                             language: 'en'
                             dependent_value: 'NULL'
+                        }
+                    },
+                    {
+                        table: 'sys_ui_element'
+                        id: 'f8678e8893578b10f1d1f0b45d03d648'
+                        key: {
+                            sys_ui_section: {
+                                id: 'f0a45cfb93c7c710f1d1f0b45d03d68c'
+                                key: {
+                                    name: 'x_1208752_demo_o_1_customer'
+                                    caption: 'NULL'
+                                    view: 'Default view'
+                                    sys_domain: 'global'
+                                }
+                            }
+                            element: 'alternatephone'
+                            position: '7'
                         }
                     },
                     {
