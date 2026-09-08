@@ -3,7 +3,7 @@ import { Flow, wfa, trigger, action } from '@servicenow/sdk/automation'
 Flow(
     {
         $id: Now.ID['852e935663994833b45cc60e4f999819'],
-        name: 'Demo OMT Telecom - Cancel Order Flow',
+        name: 'Demo OMT Telecom - Cancel Order Flow - Demo 1',
         internalName: 'demo_omt_telecom__cancel_order_flow',
         runAs: 'system',
         masterSnapshot: 'f8d35c7b93c7c710f1d1f0b45d03d601',
@@ -33,7 +33,7 @@ Flow(
             {
                 sort_type: 'sort_asc',
                 // @fluent-ignore
-                conditions: `sys_id=${wfa.dataPill(_params.trigger.current['customer'],'string')}^active=true`,
+                conditions: 'sys_id=',
                 dont_fail_flow_on_error: false,
                 table: 'x_1208752_demo_o_1_customer',
                 sort_column: '',
@@ -67,8 +67,7 @@ Flow(
                     },
                     {
                         table_name: 'x_1208752_demo_o_1_order_line',
-                        // @fluent-ignore
-                        conditions: `order=${wfa.dataPill(_params.trigger.current['sys_id'],'string')}`,
+                        conditions: 'order=',
                         sort_type: 'sort_asc',
                         field_values: TemplateValue({
                             state: 'in_progress',
@@ -84,8 +83,7 @@ Flow(
                     },
                     {
                         table_name: 'x_1208752_demo_o_1_order_line',
-                        // @fluent-ignore
-                        conditions: `order=${wfa.dataPill(_params.trigger.current['sys_id'],'string')}`,
+                        conditions: 'order=',
                         sort_type: 'sort_asc',
                         field_values: TemplateValue({
                             state: 'cancelled',
@@ -136,8 +134,7 @@ Flow(
                     },
                     {
                         table_name: 'x_1208752_demo_o_1_order_line',
-                        // @fluent-ignore
-                        conditions: `order=${wfa.dataPill(_params.trigger.current['sys_id'],'string')}`,
+                        conditions: 'order=',
                         sort_type: 'sort_asc',
                         field_values: TemplateValue({
                             state: 'failed',
