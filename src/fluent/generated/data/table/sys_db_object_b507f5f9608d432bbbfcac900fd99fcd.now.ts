@@ -31,5 +31,6 @@ export const x_1208752_demo_o_1_customer = Table({
             maxLength: 40,
         }),
     },
-    augments: 'x_1208752_demo_o_1_customer',
+    label: 'Customer',
+    name: 'x_1208752_demo_o_1_customer',
 })
