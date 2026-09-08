@@ -1,0 +1,9 @@
+{
+    "scope": "x_1208752_demo_o_1",
+    "scopeId": "e7ff00b393c7c710f1d1f0b45d03d649",
+    "name": "Demo OMT Telecom",
+    "licensing": {
+        "enforceLicense": "none"
+    },
+    "description": "A simple ServiceNow Order Management application demonstrating New Order and Cancel Order scenarios with Product, Customer, Order, and Order Line data model."
+}
