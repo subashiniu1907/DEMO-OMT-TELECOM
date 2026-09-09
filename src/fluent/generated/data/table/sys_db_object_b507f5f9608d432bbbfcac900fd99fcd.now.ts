@@ -17,6 +17,11 @@ export const x_1208752_demo_o_1_customer = Table({
             mandatory: true,
             maxLength: 40,
         }),
+        lastname: StringColumn({
+            label: 'Customer Last Name',
+            mandatory: true,
+            maxLength: 40,
+        }),
         streetaddress: StringColumn({
             maxLength: 40,
         }),
